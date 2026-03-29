@@ -1,0 +1,61 @@
+﻿docker : time="2026-0
+2-21T14:48:32+05:30" 
+level=warning msg="D:
+\\neurowall\\docker-c
+ompose.yml: the 
+attribute `version` 
+is obsolete, it will 
+be ignored, please 
+remove it to avoid 
+potential confusion"
+At line:1 char:1
++ docker compose 
+logs simulator 
+--tail=30 2>&1 | 
+Out-File 
+".\sim_logs.t ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : 
+NotSpecifi    ed: 
+(time="2026-02    
+-2...tial confusio   
+ n":String) [], Rem  
+  oteException
+    + 
+FullyQualifiedEr    
+rorId : NativeComm   
+ andError
+ 
+simulator-1  | [09:18:11] Sent log: powershell.exe -> ALLOW
+simulator-1  | [09:18:11] Sent log: powershell.exe -> ALLOW
+simulator-1  | [09:18:11] Sent log: teams.exe -> ALLOW
+simulator-1  | [09:18:11] Sent log: powershell.exe -> ALLOW
+simulator-1  | [09:18:12] Sent log: teams.exe -> ALLOW
+simulator-1  | [09:18:12] Sent log: malware.exe -> DENY
+simulator-1  | [09:18:12] Sent log: malware.exe -> DENY
+simulator-1  | [09:18:12] Sent log: teams.exe -> ALLOW
+simulator-1  | [09:18:12] Sent log: spotify.exe -> ALLOW
+simulator-1  | [09:18:12] Sent log: malware.exe -> DENY
+simulator-1  | [09:18:12] Sent log: spotify.exe -> ALLOW
+simulator-1  | [09:18:12] Sent log: chrome.exe -> ALLOW
+simulator-1  | [09:18:12] Sent log: powershell.exe -> ALLOW
+simulator-1  | [09:18:13] Sent log: teams.exe -> ALLOW
+simulator-1  | [09:18:13] Sent log: malware.exe -> DENY
+simulator-1  | [09:18:13] Sent log: teams.exe -> ALLOW
+simulator-1  | [09:18:13] Sent log: spotify.exe -> ALLOW
+simulator-1  | [09:18:13] Sent log: powershell.exe -> ALLOW
+simulator-1  | [09:18:13] Sent log: teams.exe -> ALLOW
+simulator-1  | [09:18:13] Sent log: teams.exe -> ALLOW
+simulator-1  | [09:18:13] Sent log: powershell.exe -> ALLOW
+simulator-1  | [09:18:13] Sent log: malware.exe -> DENY
+simulator-1  | [09:18:14] Sent log: teams.exe -> ALLOW
+simulator-1  | [09:18:14] Sent log: malware.exe -> DENY
+simulator-1  | [09:18:14] Sent log: teams.exe -> ALLOW
+simulator-1  | [09:18:14] Sent log: teams.exe -> ALLOW
+simulator-1  | [09:18:14] Sent log: chrome.exe -> ALLOW
+simulator-1  | [09:18:14] Sent log: spotify.exe -> ALLOW
+simulator-1  | [09:18:14] Sent log: powershell.exe -> ALLOW
+simulator-1  | [09:18:14] Sent log: malware.exe -> DENY

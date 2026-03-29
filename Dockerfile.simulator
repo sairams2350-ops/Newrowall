@@ -1,0 +1,15 @@
+FROM python:3.9-slim
+
+WORKDIR /app
+
+# Install dependencies
+RUN pip install requests
+
+# Copy scripts
+COPY demo_script.py .
+COPY simulate_agent.py .
+COPY simulate_attack.py .
+COPY real_agent.py .
+
+# Run the demo script
+CMD ["python", "demo_script.py"]

@@ -1,0 +1,111 @@
+﻿docker : time="2026-0
+2-21T14:43:19+05:30" 
+level=warning msg="D:
+\\neurowall\\docker-c
+ompose.yml: the 
+attribute `version` 
+is obsolete, it will 
+be ignored, please 
+remove it to avoid 
+potential confusion"
+At line:1 char:1
++ docker compose 
+logs backend 
+--tail=30 2>&1 | 
+Out-File -FilePath 
+".\do ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (time="2   
+ 026-02-2...tial     
+confusion":Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+backend-1  | INFO:     172.18.0.5:50464 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50474 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50484 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50500 - "GET /api/v1/telemetry/stats HTTP/1.1" 200 OK
+backend-1  | INFO:     172.18.0.5:50516 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50522 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50538 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50550 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50566 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50582 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50596 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50604 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50616 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50632 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50646 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50658 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50674 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50676 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50690 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50700 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50716 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50722 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50724 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50734 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50744 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50756 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50758 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50766 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50780 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+backend-1  | INFO:     172.18.0.5:50782 - "POST /api/v1/telemetry/ HTTP/1.1" 201 Created
+docker : time="2026-0
+2-21T14:43:19+05:30" 
+level=warning msg="D:
+\\neurowall\\docker-c
+ompose.yml: the 
+attribute `version` 
+is obsolete, it will 
+be ignored, please 
+remove it to avoid 
+potential confusion"
+At line:1 char:101
++ ... xt" -Encoding 
+UTF8; docker compose 
+logs celery 
+--tail=20 2>&1 | 
+Out-F ...
++                    
+     ~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (time="2   
+ 026-02-2...tial     
+confusion":Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+celery-1  | [2026-02-21 09:13:18,147: INFO/ForkPoolWorker-8] Task process_telemetry[488cbda8-e162-48ac-babe-16b45dd12ac6] succeeded in 0.017423629999939294s: None
+celery-1  | [2026-02-21 09:13:18,237: INFO/MainProcess] Task process_telemetry[17f8728c-9471-4368-99c6-8cbd9b865e37] received
+celery-1  | [2026-02-21 09:13:18,256: INFO/ForkPoolWorker-8] Task process_telemetry[17f8728c-9471-4368-99c6-8cbd9b865e37] succeeded in 0.01801454599990393s: None
+celery-1  | [2026-02-21 09:13:18,346: INFO/MainProcess] Task process_telemetry[6c52bea6-3807-4c3b-95e7-bebfb13b9fa7] received
+celery-1  | [2026-02-21 09:13:18,363: INFO/ForkPoolWorker-8] Task process_telemetry[6c52bea6-3807-4c3b-95e7-bebfb13b9fa7] succeeded in 0.015988093000487424s: None
+celery-1  | [2026-02-21 09:13:18,454: INFO/MainProcess] Task process_telemetry[6b6a5f53-9a1b-4650-b80a-9e4423731581] received
+celery-1  | [2026-02-21 09:13:18,470: INFO/ForkPoolWorker-8] Task process_telemetry[6b6a5f53-9a1b-4650-b80a-9e4423731581] succeeded in 0.014968624000175623s: None
+celery-1  | [2026-02-21 09:13:18,562: INFO/MainProcess] Task process_telemetry[575cb967-dcdb-44ae-a403-ce674527db94] received
+celery-1  | [2026-02-21 09:13:18,579: INFO/ForkPoolWorker-8] Task process_telemetry[575cb967-dcdb-44ae-a403-ce674527db94] succeeded in 0.016971017999821925s: None
+celery-1  | [2026-02-21 09:13:18,669: INFO/MainProcess] Task process_telemetry[4c49df22-f7ca-4ed1-8df8-207c5fa7facf] received
+celery-1  | [2026-02-21 09:13:18,686: INFO/ForkPoolWorker-8] Task process_telemetry[4c49df22-f7ca-4ed1-8df8-207c5fa7facf] succeeded in 0.016251248000116902s: None
+celery-1  | [2026-02-21 09:13:18,782: INFO/MainProcess] Task process_telemetry[8a84e6c9-b1ed-42b5-b7c6-d8995d9b7388] received
+celery-1  | [2026-02-21 09:13:18,798: INFO/ForkPoolWorker-8] Task process_telemetry[8a84e6c9-b1ed-42b5-b7c6-d8995d9b7388] succeeded in 0.01567097899987857s: None
+celery-1  | [2026-02-21 09:13:18,895: INFO/MainProcess] Task process_telemetry[288c11d6-8a63-42ca-b813-32a496579aa4] received
+celery-1  | [2026-02-21 09:13:18,919: INFO/ForkPoolWorker-8] Task process_telemetry[288c11d6-8a63-42ca-b813-32a496579aa4] succeeded in 0.023400757000672456s: None
+celery-1  | [2026-02-21 09:13:19,004: INFO/MainProcess] Task process_telemetry[13a9f3aa-6f0d-4b57-aeaf-2aadc49d9baa] received
+celery-1  | [2026-02-21 09:13:19,031: INFO/ForkPoolWorker-8] Task process_telemetry[13a9f3aa-6f0d-4b57-aeaf-2aadc49d9baa] succeeded in 0.025954464999813354s: None
+celery-1  | [2026-02-21 09:13:19,113: INFO/MainProcess] Task process_telemetry[84f2ea9a-9117-42db-a299-68fe256b8e52] received
+celery-1  | [2026-02-21 09:13:19,168: INFO/ForkPoolWorker-8] Task process_telemetry[84f2ea9a-9117-42db-a299-68fe256b8e52] succeeded in 0.054895690999728686s: None
+celery-1  | [2026-02-21 09:13:19,222: INFO/MainProcess] Task process_telemetry[e58d28e2-8d60-42cd-bb24-33961a00faed] received

@@ -1,0 +1,38 @@
+services:
+  # FastAPI Backend Web Service
+  - type: web
+    name: neurowall-backend
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    plan: free
+    envVars:
+      - key: DATABASE_URL
+        sync: false          # You will set this in the Render dashboard
+      - key: REDIS_URL
+        sync: false
+      - key: SECRET_KEY
+        generateValue: true  # Render auto-generates a secure random value
+      - key: AGENT_SECRET_KEY
+        generateValue: true
+    healthCheckPath: /health
+    autoDeploy: true
+
+  # Celery Background Worker
+  - type: worker
+    name: neurowall-celery
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    plan: free
+    startCommand: celery -A app.celery_app worker --loglevel=info --concurrency=2
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: REDIS_URL
+        sync: false
+      - key: SECRET_KEY
+        sync: false
+      - key: AGENT_SECRET_KEY
+        sync: false
+    autoDeploy: true
